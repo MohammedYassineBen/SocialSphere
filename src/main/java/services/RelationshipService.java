@@ -1,7 +1,7 @@
 package services;
 
-import kl.socialnetwork.domain.models.serviceModels.RelationshipServiceModel;
-import kl.socialnetwork.domain.models.viewModels.relationship.FriendsCandidatesViewModel;
+import models.serviceModels.RelationshipServiceModel;
+import models.viewModels.relationship.FriendsCandidatesViewModel;
 
 import java.util.List;
 

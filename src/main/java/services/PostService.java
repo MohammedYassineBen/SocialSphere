@@ -1,7 +1,7 @@
 package services;
 
-import kl.socialnetwork.domain.models.bindingModels.post.PostCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.PostServiceModel;
+import models.bindingModels.post.PostCreateBindingModel;
+import models.serviceModels.PostServiceModel;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

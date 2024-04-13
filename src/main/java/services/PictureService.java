@@ -1,6 +1,6 @@
 package services;
 
-import kl.socialnetwork.domain.models.serviceModels.PictureServiceModel;
+import models.serviceModels.PictureServiceModel;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package services;
 
-import kl.socialnetwork.domain.entities.UserRole;
+import entities.UserRole;
 
 public interface RoleService {
     boolean persist(UserRole role) throws Exception;

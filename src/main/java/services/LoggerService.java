@@ -1,6 +1,6 @@
 package services;
 
-import kl.socialnetwork.domain.models.serviceModels.LoggerServiceModel;
+import models.serviceModels.LoggerServiceModel;
 
 import java.util.List;
 

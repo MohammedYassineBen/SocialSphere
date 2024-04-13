@@ -1,8 +1,8 @@
 package services;
 
-import kl.socialnetwork.domain.models.bindingModels.message.MessageCreateBindingModel;
-import kl.socialnetwork.domain.models.serviceModels.MessageServiceModel;
-import kl.socialnetwork.domain.models.viewModels.message.MessageFriendsViewModel;
+import models.bindingModels.message.MessageCreateBindingModel;
+import models.serviceModels.MessageServiceModel;
+import models.viewModels.message.MessageFriendsViewModel;
 
 import java.util.List;
 
