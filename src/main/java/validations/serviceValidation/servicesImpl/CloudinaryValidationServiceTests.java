@@ -1,10 +1,10 @@
 package validations.serviceValidation.servicesImpl;
 
-import validations.serviceValidation.services.CloudinaryValidationService;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.web.multipart.MultipartFile;
+import validations.serviceValidation.services.CloudinaryValidationService;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -64,7 +64,6 @@ public class CloudinaryValidationServiceTests {
         byte[] content = "content".getBytes();
         MultipartFile pictureFile = new MockMultipartFile(name,
                 originalFileName, contentType, content);
-
         String uuid = UUID.randomUUID().toString();
 
         boolean result = cloudinaryValidationService.isValid(pictureFile, uuid);

@@ -1,13 +1,13 @@
 package servicesImpl;
 
-import cloudinary.Api;
-import cloudinary.Cloudinary;
-import services.CloudinaryService;
-import validations.serviceValidation.services.CloudinaryValidationService;
+import com.cloudinary.Cloudinary;
+import com.cloudinary.api.ApiResponse;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+import services.CloudinaryService;
+import validations.serviceValidation.services.CloudinaryValidationService;
 
 import java.io.File;
 import java.util.Collections;
@@ -54,7 +54,8 @@ public class CloudinaryServiceImpl implements CloudinaryService {
             throw new Exception(SERVER_ERROR_MESSAGE);
         }
 
-        Api.ApiResponse apiResponse = this.cloudinary.api().deleteResources(Collections.singletonList(cloudinaryPublicId), new HashMap());
+
+        ApiResponse apiResponse = this.cloudinary.api().deleteResources(Collections.singletonList(cloudinaryPublicId), new HashMap());
 
         JSONObject deleted = (JSONObject) apiResponse.get("deleted");
         String deletingResult = deleted.get(cloudinaryPublicId).toString();

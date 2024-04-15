@@ -3,12 +3,12 @@ package validations.serviceValidation.servicesImpl;
 import entities.Like;
 import entities.Post;
 import entities.User;
+import org.junit.Before;
+import org.junit.Test;
 import testUtils.LikesUtils;
 import testUtils.PostsUtils;
 import testUtils.UsersUtils;
 import validations.serviceValidation.services.LikeValidationService;
-import org.junit.Before;
-import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

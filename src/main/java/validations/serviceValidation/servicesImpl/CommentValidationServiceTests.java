@@ -1,4 +1,4 @@
-package kl.socialnetwork.validations.serviceValidation.servicesImpl;
+package validations.serviceValidation.servicesImpl;
 
 import entities.Comment;
 import entities.Post;
@@ -7,9 +7,9 @@ import comment.CommentCreateBindingModel;
 import testUtils.CommentsUtils;
 import testUtils.PostsUtils;
 import testUtils.UsersUtils;
-import services.CommentValidationService;
 import org.junit.Before;
 import org.junit.Test;
+import validations.serviceValidation.services.CommentValidationService;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
