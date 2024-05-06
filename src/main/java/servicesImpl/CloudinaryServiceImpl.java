@@ -2,7 +2,7 @@ package servicesImpl;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.api.ApiResponse;
-import org.json.simple.JSONObject;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
