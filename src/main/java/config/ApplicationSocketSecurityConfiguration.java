@@ -3,9 +3,9 @@ package config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.messaging.MessageSecurityMetadataSourceRegistry;
 import org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer;
-
+import org.springframework.security.config.annotation.web.socket.WebSocketMessageBrokerConfigurer;
 @Configuration
-public class ApplicationSocketSecurityConfiguration extends AbstractSecurityWebSocketMessageBrokerConfigurer {
+public class ApplicationSocketSecurityConfiguration extends WebSocketMessageBrokerConfigurer {
 
 
     @Override
