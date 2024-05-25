@@ -1,0 +1,93 @@
+@import url("../custom-css/styles.css");
+@import url("./tooltipCustom.css");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #06afaf;
+}
+
+.App-center{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.App-footer{
+  text-align: center;
+}
+
+.App-primary-color{
+  color:#037272;
+}
+
+.App-secondary-color{
+  color: #06afaf;
+}
+
+.App-button-primary{
+  background:#037272;
+  color:white;
+}
+
+.App-button-primary:hover{
+  background: #06afaf;
+  color:#fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 14px 1px rgba(0,0,0,.3)
+}
+
+.App-button-secondary{
+  background:#06afaf;
+  color:white;
+}
+
+.App-button-secondary:hover{
+  background: #037272;
+  color:#fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 14px 1px rgba(0,0,0,.3)
+}
+
+.footer{
+  color: black;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+.text-shadow {
+  color: #FFFFFF;
+  text-shadow: 4px 3px 0 #a4a2a2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
